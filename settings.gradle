@@ -1,0 +1,4 @@
+rootProject.name = 'Microservices-Docker-K8s'
+include 'AuthMicroservice'
+include 'UserMicroservice'
+
