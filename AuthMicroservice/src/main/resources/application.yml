@@ -1,2 +1,16 @@
 server:
   port: 9090
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgresql
+    password: postgresql
+    url: jdbc:postgresql://localhost:5432/AuthDB
+  jpa:
+    hibernate:
+      ddl-auto: update
+  cloud:
+    config:
+      import-check:
+        enabled: false
