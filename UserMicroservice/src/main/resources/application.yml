@@ -9,3 +9,7 @@ spring:
       username: mongouser
       password: mongopassword
       database: UserProfileDB
+  cloud:
+    config:
+      import-check:
+        enabled: false
